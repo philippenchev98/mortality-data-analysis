@@ -19,7 +19,9 @@ In actuarial science, the pricing is based on the **Principle of Equivalence**: 
 
 To calculate the cost for an n-year Term Life policy for a person aged x, we discount the expected payout for each year t using the technical interest rate i:
 
+$$
 NSP = \sum_{t=0}^{n-1} S \times \left( \frac{d_{x+t}}{l_x} \right) \times v^{t+1}
+$$
 
 Where:
 * **S** = Sum Assured (e.g., €100,000)
