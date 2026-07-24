@@ -22,6 +22,18 @@ Where:
 * **S** = Sum Assured (e.g., 100,000 BGN)
 * **v** = Discount factor 1 / (1 + i)
 
+## Visualizations
+
+### 1. Life Expectancy ($e_x$)
+As expected, female life expectancy is structurally higher than male life expectancy across all ages.
+![Life Expectancy](myplot1.png)
+
+### 2. Mortality Rate ($q_x$) - Log Scale
+The logarithmic scale reveals the "accident hump" for males in their early 20s and the exponential growth of mortality risk after age 40 (Gompertz-Makeham law).
+![Mortality Rate](myplot2.png)
+
 ## Tech Stack
+
+
 * **Python** (Core logic and mathematical modeling)
 * **pandas** (Data extraction and wrangling)
