@@ -20,7 +20,7 @@ To calculate the cost for an n-year Term Life policy for a person aged x, we dis
 NSP = \sum_{t=0}^{n-1} S \times \left( \frac{d_{x+t}}{l_x} \right) \times v^{t+1}
 
 Where:
-* **S** = Sum Assured (e.g., 100,000 BGN)
+* **S** = Sum Assured (e.g., €100,000)
 * **v** = Discount factor 1 / (1 + i)
 
 ## Visualizations
