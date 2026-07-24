@@ -75,4 +75,4 @@ def calculate_term_life_nsp(df, age, term, sum_assured, interest_rate):
 premium = calculate_term_life_nsp(df_males, age=30, term=10, sum_assured=100000, interest_rate=0.03)
 
 
-print(f"Обща Нетна Еднократна Премия (NSP): {premium:.2f} лв.")
+print(f"Обща Нетна Еднократна Премия (NSP): €{premium:.2f}")
