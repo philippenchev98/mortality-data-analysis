@@ -11,8 +11,8 @@ This project calculates the **Net Single Premium (NSP)** for a Term Life Insuran
 
 ## Data Source
 The model uses 1x1 mortality tables (single-year age intervals and single calendar year data) for 2021.
-* **l_x**: Number of survivors at exact age x.
-* **d_x**: Number of deaths between age x and x+1.
+* $**l_x**$: Number of survivors at exact age x.
+* $**d_x**$: Number of deaths between age x and x+1.
 
 ## Mathematical Standard: Principle of Equivalence
 In actuarial science, the pricing is based on the **Principle of Equivalence**: the expected present value of the benefits paid by the insurer must equal the expected present value of the premiums paid by the insured.
