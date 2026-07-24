@@ -43,7 +43,7 @@ def calculate_term_life_nsp(df, age, term, sum_assured, interest_rate):
     #Взимаме броя живи хора на началната възраст (l_x)
     l_x = df.loc[df['Age'] == age, 'lx'].values[0]
 
-    print(f"Параметри: Възраст: {age}, Срок: {term} г., Сума: {sum_assured} лв., Лихва: {interest_rate * 100}%")
+    print(f"Параметри: Възраст: {age}, Срок: {term} г., Сума: €{sum_assured}, Лихва: {interest_rate * 100}%")
 
     #Цикъл през всяка година от срока на полицата
     for t in range(term):
@@ -65,7 +65,7 @@ def calculate_term_life_nsp(df, age, term, sum_assured, interest_rate):
         nsp += epv_year
 
         print(
-            f"Възраст {current_age}: P(смърт) = {prob_death:.5f} | Дисконт = {discount:.4f} | Риск за годината = {epv_year:.2f} лв.")
+            f"Възраст {current_age}: P(смърт) = {prob_death:.5f} | Дисконт = {discount:.4f} | Риск за годината = €{epv_year:.2f}")
 
     return nsp
 
