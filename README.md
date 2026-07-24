@@ -3,7 +3,8 @@ Python project calculating Net Single Premium for Term Life Insurance using demo
 
 # Actuarial Life Insurance Pricing Model
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/philippenchev98/mortality-data-analysis/blob/main/Actuarial_Model.ipynb)
-**View the business presentation [here](Actuarial_Presentation.pdf)**
+
+**View the business presentation [here](Actuarial_Life Insurance_Pricing_Model.pdf)**
 
 ## Project Overview
 This project calculates the **Net Single Premium (NSP)** for a Term Life Insurance policy. It demonstrates the application of actuarial science, demographic data analysis, and the time value of money (discounting) to determine the exact mathematical cost of life insurance risk.
