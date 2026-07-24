@@ -26,11 +26,11 @@ Where:
 
 ### 1. Life Expectancy ($e_x$)
 As expected, female life expectancy is structurally higher than male life expectancy across all ages.
-![Life Expectancy](myplot3.png)
+![Life Expectancy](myplot4.png)
 
 ### 2. Mortality Rate ($q_x$) - Log Scale
 The logarithmic scale reveals the "accident hump" for males in their early 20s and the exponential growth of mortality risk after age 40 (Gompertz-Makeham law).
-![Mortality Rate](myplot4.png)
+![Mortality Rate](myplot3.png)
 
 ## Tech Stack
 
