@@ -2,8 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #Зареждане на данните от Excel файловете
-df_males = pd.read_excel(r"C:\Users\avata\OneDrive\Работен плот\Mortality_portfolio\Life males.xlsx")
-df_females = pd.read_excel(r"C:\Users\avata\OneDrive\Работен плот\Mortality_portfolio\Life females.xlsx")
+df_males = pd.read_excel(r"Life males.xlsx")
+df_females = pd.read_excel(r"Life females.xlsx")
 
 #Настройка на стила на графиките
 plt.style.use('seaborn-v0_8-darkgrid')
