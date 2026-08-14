@@ -9,6 +9,22 @@ Python project calculating Net Single Premium for Term Life Insurance using demo
 ## Project Overview
 This project calculates the **Net Single Premium (NSP)** for a Term Life Insurance policy. It demonstrates the application of actuarial science, demographic data analysis, and the time value of money (discounting) to determine the exact mathematical cost of life insurance risk.
 
+## Key Findings
+
+**Example calculation:** 10-year Term Life policy, 30-year-old male,
+€100,000 sum assured, technical interest rate i = 3%, HMD 2021 mortality tables:
+
+- **Net Single Premium (NSP): €1,826.19** — the pure mathematical cost of the
+  mortality risk, i.e. ≈ **1.83% of the sum assured** for the full 10-year coverage.
+- The discounted risk contribution is **not flat across the term**: it rises from
+  €134 at age 30 to €274 at age 39 — the final year carries ~2x the risk cost of
+  the first, reflecting the exponential growth of q_x with age.
+- Discounting materially shapes the premium: a death benefit paid in year 10 is
+  worth only ~74 cents on the euro today (v¹⁰ ≈ 0.744 at i = 3%).
+
+**Data caveat:** the 2021 tables still reflect elevated COVID-19 mortality —
+premiums computed on them are conservative relative to pre-pandemic (2019) tables.
+
 ## Data Source
 The model uses 1x1 mortality tables (single-year age intervals and single calendar year data) for 2021.
 * **$l_x$**: Number of survivors at exact age x.
